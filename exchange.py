@@ -64,10 +64,9 @@ class ravencoin:
 
 		for i in txid_l:
 			sdr = txid_addr(i)
-			if sdr[0] != 'RQdE5WjsstVi3bZVURQ55XZjCcnsMJyZqq' and sdr[0] != 'RTraysiMMzReEQHKtGtgRtVdGjg4vRA36d':
-				raised += sdr[1]
-				self.send_asset(asset_name, float(sdr[1])*assets_per_rvn, sdr[0])
-				print(f'{float(sdr[1])*assets_per_rvn} {asset_name} tokens(s) sent to {sdr[0]}! Total Raised: {raised}')
+			raised += sdr[1]
+			self.send_asset(asset_name, float(sdr[1])*assets_per_rvn, sdr[0])
+			print(f'{float(sdr[1])*assets_per_rvn} {asset_name} tokens(s) sent to {sdr[0]}! Total Raised: {raised}')
 
 
 if __name__ == '__main__':
