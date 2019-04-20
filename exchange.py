@@ -8,7 +8,7 @@ your_passphrase = '' # If you have no passphrase set "has_passphrase" to "False"
 your_wallet_address = ''
 asset_name = '' # The asset you wish to transact
 assets_per_rvn = 1 # For each RVN given, how many assets do you want to send out?
-confirms = 5 # 5 should be minimum, 60 should garentee a 0 chance of a double spend
+confirms = 5 # 5 should be minimum, 60 should garentee a near 0 chance of a double spend
 
 # Do not change anything below this line unless you know what you are doing!
 
