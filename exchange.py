@@ -66,7 +66,7 @@ class ravencoin:
 			sdr = txid_addr(i)
 			raised += sdr[1]
 			self.send_asset(asset_name, float(sdr[1])*assets_per_rvn, sdr[0])
-			print(f'{float(sdr[1])*assets_per_rvn} {asset_name} tokens(s) sent to {sdr[0]}! Total Raised: {raised}')
+			print(f'{float(sdr[1])*assets_per_rvn} {asset_name} tokens(s) sent to {sdr[0]}! Total Raised: {raised} RVN')
 
 
 if __name__ == '__main__':
