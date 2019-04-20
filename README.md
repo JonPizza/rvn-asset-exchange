@@ -14,6 +14,7 @@ Made for donations to Notre Dame
 ________
 
 HOW TO (Linux):
+
 You must have Python installed (Duh)
 
 Download this file
