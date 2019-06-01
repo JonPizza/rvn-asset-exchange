@@ -17,7 +17,7 @@ VERY IMPORTANT: THIS SCRIPT IS STILL BEING TESTED! But it will _probaly_ be _fin
 
 HOW TO (Linux):
 
-You must have Python installed (Duh)
+You must have Python and Raven Core installed (Duh)
 
 Download this file
 
